@@ -4,7 +4,8 @@ This project is designed for film directors' works analysis. What we want to exp
 
 ## Steps to follow
 - Directors dataset: [Extract directors' birthplace/birthday/bio/trivia/race/gender information](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/web%20scrapping.ipynb)
-  - A short VBA code to automatically download images from url address and insert in Excel
+  - A short VBA code to automatically download images from url address and insert in Excel:
+  Happy
 
 
 ## Introduction
