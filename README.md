@@ -3,8 +3,7 @@
 This project is designed for film directors' works analysis. What we want to explore is the relationship between films' performance and film directors' background.
 
 ## Steps to follow
-- Directors information dataset
-1. [Extract directors' birthplace/birthday/bio/trivia/race/gender](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/web%20scrapping.ipynb)
+- Directors dataset: [Extract directors' birthplace/birthday/bio/trivia/race/gender information](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/web%20scrapping.ipynb)
 
 
 ## Introduction
