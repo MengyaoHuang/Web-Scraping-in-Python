@@ -14,9 +14,3 @@ This project is designed for film directors' works analysis. What we want to exp
   - Critic/Metascore ratings distribution for TOP200 films each year starting from 2004:
   ![](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Critics.PNG)
   
-  - Users ratings average/variance scatter plot:
-  ![](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/User%20distribution.PNG)
-  - Critic/Metascore average/variance scatter plot:
-  ![](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Critic%20distribution.PNG)
-  
-  
