@@ -1,0 +1,28 @@
+Sub InsertPic()
+
+Dim productImageUrl As String
+Dim productImage As Picture     'Declare image picture object
+Dim productImageUrlRng As Range 'Declare range object to contain image URL
+Dim productImageRng As Range    'Location image will be placed
+'Delete any existing pictures:
+
+Set productImageUrlRng = Range("N2:N1171")  'Cell containing image URL
+
+For Each cell In productImageUrlRng
+    If cell.Value <> "" Then
+        cell.Offset(0, -13).Select
+        Set productImage = ActiveSheet.Pictures.Insert(cell)
+        On Error Resume Next
+        With productImage
+            .ShapeRange.LockAspectRatio = msoTrue
+            .Width = 60
+            .Height = 60
+            
+            .Top = Rows(cell.Offset(0, -13).Row).Top
+            .Left = Columns(cell.Offset(0, -13).Column).Left
+        End With
+    End If
+    
+Next cell
+
+End Sub
