@@ -14,3 +14,6 @@ This project is designed for film directors' works analysis. What we want to exp
   - Critic/Metascore ratings distribution for TOP200 films each year starting from 2004:
   ![](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Critics.PNG)
   
+ - Nature Language Processing Analysis - Topic modeling and text analysis for comments
+    - LIWC: [LIWC transparent text analysis](https://www.cs.cmu.edu/~ylataus/files/TausczikPennebaker2010.pdf)
+    - LSA/LDA decomposition: [A simplified notebook to implement basic LDA/LSA analysis for sample text](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Topic%20model%20analysis.ipynb)
