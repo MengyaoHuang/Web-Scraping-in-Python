@@ -16,4 +16,5 @@ This project is designed for film directors' works analysis. What we want to exp
   
  - Nature Language Processing Analysis - Topic modeling and text analysis for comments
     - LIWC: [LIWC transparent text analysis](https://www.cs.cmu.edu/~ylataus/files/TausczikPennebaker2010.pdf)
+      - By using LIWC Topic model analysis, we calculate the word frequency of critic rating comments related to specific ten topics. The LIWC Extractor code in notebook can be found [here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/LIWC%20implementation.ipynb)
     - LSA/LDA decomposition: [A simplified notebook to implement basic LDA/LSA analysis for sample text](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Topic%20model%20analysis.ipynb)
