@@ -18,3 +18,5 @@ This project is designed for film directors' works analysis. What we want to exp
     - LIWC: [LIWC transparent text analysis](https://www.cs.cmu.edu/~ylataus/files/TausczikPennebaker2010.pdf)
       - By using LIWC Topic model analysis, we calculate the word frequency of critic rating comments related to specific ten topics. The LIWC Extractor code in notebook can be found [here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/LIWC%20implementation.ipynb)
     - LSA/LDA decomposition: [A simplified notebook to implement basic LDA/LSA analysis for sample text](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Topic%20model%20analysis.ipynb)
+- Word Topic frequency statistical analysis given race and gender info
+  - We have fixed around 10 topics that we may interest from LIWC. What we did here was to extract word-text related to these topics, gave statistical info and compared how their frequencies may vary among people with different race and gender. [Notebook details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Word%20Topic%20frequency%20analysis.ipynb)
