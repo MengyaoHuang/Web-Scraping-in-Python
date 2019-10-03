@@ -20,3 +20,6 @@ This project is designed for film directors' works analysis. What we want to exp
     - LSA/LDA decomposition: [A simplified notebook to implement basic LDA/LSA analysis for sample text](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Topic%20model%20analysis.ipynb)
 - Word Topic frequency statistical analysis given race and gender info
   - We have fixed around 10 topics that we may interest from LIWC. What we did here was to extract word-text related to these topics, gave statistical info and compared how their frequencies may vary among people with different race and gender. [Notebook details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Word%20Topic%20frequency%20analysis.ipynb)
+
+- Login Web scraping
+  - [Task1](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Log%20in%20Task/Data_scraping_log_in_related_task_Section1_.ipynb): (Login not needed) Use "bomlink" and "imdblink" of each film to scrape information including 'releasedate' and 'closedate' and 'number of critics'. 
