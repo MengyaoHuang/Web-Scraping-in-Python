@@ -23,3 +23,4 @@ This project is designed for film directors' works analysis. What we want to exp
 
 - Login Web scraping
   - [Task1](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Log%20in%20Task/Data_scraping_log_in_related_task_Section1_.ipynb): (Login not needed) Use "bomlink" and "imdblink" of each film to scrape information including 'releasedate' and 'closedate' and 'number of critics'. 
+  - [Task2](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Log%20in%20Task/star_power_actor.ipynb): Here we want to scrap StarPower values for the Top5 casts for each film measured 10 weeks prior to the release date (scraped from Task1). To be more specific, we would use [Selenium](https://www.seleniumhq.org/) to set up a driver and log in our account first. And by visiting Pro-IMDb profile of casts, we would tell certain period rankings through graph Data automatically.
