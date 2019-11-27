@@ -28,3 +28,8 @@ This project is designed for film directors' works analysis. What we want to exp
   - [Task2](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Log%20in%20Task/star_power_actor.ipynb): Here we want to scrap StarPower values for the Top5 casts for each film measured 10 weeks prior to the release date (scraped from Task1). To be more specific, we would use [Selenium](https://www.seleniumhq.org/) to set up a driver and log in our account first. And by visiting Pro-IMDb profile of casts, we would tell certain period rankings through graph Data automatically.
   - [Task3](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Log%20in%20Task/seasonality_score_scraping_boxOffice.ipynb): Find out each film's release date and match the date to week's gross and total number of movies info identified by boxofficemojo.com
     - " Season captures whether a distributor released a film during a high-demand period. Though most peak seasons revolve around holidays, we developed a continuous measure of seasonality by creating a moving average of total box office receipts across all films for a three-week window centered around the film’s release date during the previous three years" (Sorenson and Waguespack, 2006: p. 572)
+
+- unconventionality measures (% of all prior films with same first 2 descriptors in imdb)
+  - Own unconventionality: all prior own films during the past 5 years.
+  - Unconventionality compared to others: all prior films during the past 5 years.
+  - [Notebook details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Unconventional.ipynb) and [collection results uploaded](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/own%20unconventionality.csv)
