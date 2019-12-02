@@ -32,4 +32,5 @@ This project is designed for film directors' works analysis. What we want to exp
 - unconventionality measures (% of all prior films with same first 2 descriptors in imdb)
   - Own unconventionality: all prior own films during the past 5 years.
   - Unconventionality compared to others: all prior films during the past 5 years.
-  - [Notebook details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Unconventional.ipynb) and [collection results uploaded](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/own%20unconventionality.csv)
+  - [Notebook for own unconventionality details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Unconventional.ipynb) and [collection results uploaded](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/own%20unconventionality.csv)
+  - [Notebook for unconventionality compared to others details can be found here](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/Others_unconventionality_collection.ipynb) and [collection results uploaded](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/result.csv) and [feature films genre collection from year 2000 to year 2015](https://github.com/MengyaoHuang/Web-Scraping-in-Python/blob/master/feature%20films%20genre%20from%202000%20to%202015.zip) 
